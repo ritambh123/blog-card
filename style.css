@@ -1,0 +1,120 @@
+/* Card container styling */
+.card:hover {
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.card {
+    width: 320px;
+    /* Adjust as needed */
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    overflow: hidden;
+    width: 320px;
+    /* Adjust as needed */
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    overflow: hidden;
+    text-align: center;
+
+
+    /* Centers text inside the card */
+}
+
+/* Image styling */
+.image {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Learning badge styling - BELOW the image */
+.Learning {
+    display: inline-block;
+    background-color: #f4c542;
+    /* Yellow background */
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    /* Spacing below the image */
+}
+
+/* Container to structure elements properly */
+.container {
+    text-align: left;
+
+    /* Align text content */
+}
+
+/* Date styling */
+.date {
+    font-size: 14px;
+    color: gray;
+    margin-top: 8px;
+}
+
+/* Title styling */
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+/* Description styling */
+.description {
+    font-size: 14px;
+    color: gray;
+    line-height: 1.5;
+}
+
+/* Author section */
+.author_name {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.authorimg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+/* Center the entire card */
+body {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    min-height: 100vh;
+    /* Full viewport height */
+    background-color: #f5d04e;
+    /* Matches your design's background */
+    margin: 0;
+
+    /* Remove default margin */
+}
+
+a:hover {
+    color: #f4c542;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Card styling */
